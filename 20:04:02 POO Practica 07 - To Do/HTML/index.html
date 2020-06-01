@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Practica 07 - To Do</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="jumbotron">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Actividades Pendientes</h3>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="form-group">
+                        <form action="#" id="formulario">
+                            <label for="" class="font-weight-bold">
+                            Actividades a Realizar
+                        </label>
+                            <input type="text" id="Tareas" class="form-control" placeholder="Actividades a Realizar">
+                            <button type="submit" class="btn btn-outline-primary btn-block mt-3">Ingresa Actividades</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3 text-center">
+                <div class="col-6">
+                    <label for="" class="font-weight-bold">
+                    Actividades Pendientes
+                </label>
+                    <ul class="list-group" id="ActividadesPendientes"></ul>
+                </div>
+                <div class="col-6 mt-2">
+                    <label for="" class="font-weight-bold">
+                    Actividades Finalizadas
+                </label>
+                    <ul class="list-group" id="ActividadesFinalizadas"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./../JS/LocalStorage.class.js"></script>
+    <script src="./../JS/Tareas.class.js"></script>
+    <script src="./../JS/App.js"></script>
+</body>
+
+</html>
